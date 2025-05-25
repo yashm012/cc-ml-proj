@@ -360,6 +360,7 @@ if __name__ == "__main__":
 
     print("\n=== Knowledge Distillation Complete ===")
 
+'''
 # additional utility function for inference
 def predict_sentiment(text, model, tokenizer, device):
     """Predict sentiment for a single text"""
@@ -394,3 +395,4 @@ def predict_sentiment(text, model, tokenizer, device):
 # Example usage:
 # sentiment, confidence = predict_sentiment("This movie was amazing!", student_model, tokenizer, device)
 # print(f"Sentiment: {sentiment}, Confidence: {confidence:.3f}")
+'''
